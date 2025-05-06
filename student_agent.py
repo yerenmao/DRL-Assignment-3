@@ -52,7 +52,7 @@ class Agent:
     
     def __load_all_models(self):
         models = []
-        model_paths = ['icm_ckpt4.pth', 'icm_ckpt6.pth', 'icm_ckpt7.pth']
+        model_paths = ['icm_ckpt7.pth']
 
         for model_path in model_paths:
             model = DDQN(n_channels=4, n_actions=len(COMPLEX_MOVEMENT))
